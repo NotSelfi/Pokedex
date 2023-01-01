@@ -1,0 +1,213 @@
+
+
+
+@font-face {
+    font-family: 'Lato';
+    src: url('../fonts/Lato-Bold.woff2') format('woff2'),
+        url('../fonts/Lato-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+
+
+@font-face {
+    font-family: 'Lato';
+    src: url('../fonts/Lato-BoldItalic.woff2') format('woff2'),
+        url('../fonts/Lato-BoldItalic.woff') format('woff');
+    font-weight: bold;
+    font-style: italic;
+    font-display: swap;
+}
+
+
+
+@font-face {
+    font-family: 'Lato';
+    src: url('../fonts/Lato-Regular.woff2') format('woff2'),
+        url('../fonts/Lato-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+
+*{
+    font-family: 'Lato';
+}
+
+header{
+
+background:  #AAA ;
+color: #FFF;
+padding-top: 15px;
+padding-bottom: 15px;
+padding-left: 30px;
+padding-right: 30PX;
+
+  display:  flex;
+  flex-direction: row;
+  justify-content: space-between;
+
+
+}
+
+a{
+  padding: 0.5px;
+  color: #FFF;
+  text-decoration: none;
+
+}
+a:hover{
+  text-decoration: underline;
+}
+
+.logo {
+  height: 40PX;
+}
+main{
+max-width:: 1170px ;
+padding: 30px;
+display: flex;
+flex-direction: column;
+align-items: center;
+margin-bottom: 30px;
+}
+
+
+.pikachu{
+  width: 50%;
+
+
+
+}
+footer{
+  background:  #AAA ;
+  color: #FFF;
+  padding-top: 3px;
+  padding-bottom: 3px;
+  padding-left: 30px;
+  padding-right: 30PX;
+    text-align: center;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+}
+body{
+  margin: 0px;
+  overflow-x: hidden;
+}
+nav{
+  display:  flex;
+  flex-direction: row;
+justify-content:  space-around;
+  flex-wrap: nowrap;
+  padding:15PX;
+  width: 700PX;
+}
+h1{
+  font-size: 45px;
+}
+h2{
+  text-decoration: underline;
+
+}
+.centre{
+  display: flex;
+  flex-direction: column;
+align-items: flex-start;
+
+}
+
+.main{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+}
+.test{
+  display: flex;
+  flex-direction: row;
+  width: auto;
+
+}
+.Compte{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  flex-wrap: nowrap;
+  width: 49%;
+  border: 1px solid ;
+  border-color: rgba(0, 0, 0, 0.5);
+  margin-right: 1%;
+  padding: 10px;
+}
+#possedeCompte{
+  height: 50%;
+}
+#creerCompte{
+  height: 75%;
+}
+
+.pdp{
+  display: flex;
+  flex-direction: column;
+
+}
+.pdp p{
+  font-size: 20px;
+}
+.file{
+  font-size: 12px;
+  background-color: #fff;
+
+}
+label{
+  font-size: 24px;
+}
+input{
+  margin-bottom: 8px;
+  padding: 16px;
+  font-size: 20px;
+  border-radius: 4px;
+  width: 75%;
+}
+.bouton{
+  color: white;
+  background-color: #4CAF50;
+  padding: 12px 28px;
+  border-radius: 4px;
+   border: 2px;
+   width: 100%;
+}
+#add_pokemon{
+  margin-left: 225px;
+  width: 100%;
+}
+.btn-ajt{
+  color: white;
+  background-color: #4CAF50;
+  padding: 12px 28px;
+  border-radius: 4px;
+   border: 2px;
+   width: 78%;
+}
+.message{
+  margin-left: 20px;
+  font-size: 20px ;
+
+}
+
+.center{
+  display: flex;
+  justify-content:center;
+}
+.mesinfos{
+  width: 1400px;
+  margin-bottom: 100px;
+  border-bottom:  2px solid ;
+  border-color: rgba(0, 0, 0, 0.5);
+
+}
